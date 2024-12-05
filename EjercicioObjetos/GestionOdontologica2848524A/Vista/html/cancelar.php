@@ -4,6 +4,10 @@
 <head>
     <title>Sistema de Gestión Odontológica</title>
     <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css">
+    <script type="text/javascript" src="Vista/jquery/jquery-3.7.1.min.js"></script>
+    <script src="Vista/jquery/jquery-ui-1.14.1.custom/jquery-ui.js" type="text/javascript"></script>
+    <link href="Vista/jquery/jquery-ui-1.14.1.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="Vista/js/script.js"></script>
 </head>
 
 <body>
@@ -28,8 +32,7 @@
                         <td><input type="text" name="cancelarDocumento" id="cancelarDocumento"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="submit"
-                                name="cancelarConsultar" value="Consultar" id="cancelarConsultar"></td>
+                        <td colspan="2"><input type="button" name="consultarConsultar" value="Consultar" id="consultarConsultar" onclick="cancelarCita()"></td>
                     </tr>
                     <tr>
                         <td colspan="2">
